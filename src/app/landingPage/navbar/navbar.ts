@@ -17,12 +17,16 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   template: `
     <nav class="navbar">
-      <ul>
-        <li><a routerLink="/">Home</a></li>
-        <li><a routerLink="/menu">Menu</a></li>
-        <li><a routerLink="/about">About</a></li>
-        <li><a routerLink="/contact">Contact</a></li>
-      </ul>
+      <img src="/assets/logo.png" alt="Sakura Ramen Logo" class="navbar-logo">
+      <div class="navbar-links">
+        <a href="">Home</a>
+        <a href="">Menu</a>
+        <a href="">About</a>
+        <div class="phone_btn">
+          <img src="/assets/phone-icon.png" alt="Phone Icon">
+          <a href="tel:+1234567890">01234567890</a>
+        </div>
+      </div>
     </nav>
   `,
   styleUrls: ['./navbar.component.scss']

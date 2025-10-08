@@ -35,3 +35,11 @@
 .font-raleway {
   font-family: 'Raleway', sans-serif;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(255, 255, 255);
+}

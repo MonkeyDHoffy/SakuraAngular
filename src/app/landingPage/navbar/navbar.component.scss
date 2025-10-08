@@ -1,0 +1,30 @@
+.navbar {
+  width: 100vw;
+  height: 70px;
+  background: rgba(30, 30, 30, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 24px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.navbar-link:hover {
+  color: #ffb7c5;
+}
