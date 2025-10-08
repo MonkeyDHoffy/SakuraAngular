@@ -30,6 +30,7 @@
 // }
 
 nav {
+  font-size: x-large;
   width: 100%;
   padding: 32px;
   display: flex;
@@ -61,10 +62,16 @@ a {
 }
 
 .phone_btn {
+  background-color: red;
   padding: 8px 16px;
   border: 2px solid white;
-  border-radius: 24px;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  > img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
 }
