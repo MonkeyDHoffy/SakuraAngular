@@ -4,6 +4,7 @@ import { LandingPageComponent } from './landingPage/landingPage.component';
 import { OurMenu } from './our-menu/our-menu';
 import { HowToOrder } from './how-to-order/how-to-order';
 
+
 @Component({
   selector: 'app-main-content',
   imports: [CommonModule, LandingPageComponent, OurMenu, HowToOrder],

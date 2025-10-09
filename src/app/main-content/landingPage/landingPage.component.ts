@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from "./navbar/navbar";
 import { HowToOrder } from '../how-to-order/how-to-order';
 import { OurMenu } from '../our-menu/our-menu';
+import { Anfahrt } from '../../shared/anfahrt/anfahrt'; 
+
 
 @Component({
   selector: 'app-landing-page',
   standalone: true,
-  imports: [CommonModule, NavbarComponent, HowToOrder, OurMenu],
+  imports: [CommonModule, NavbarComponent, HowToOrder, OurMenu, Anfahrt],
   template: `
     <section>
       <div><app-navbar></app-navbar></div>
@@ -16,6 +18,8 @@ import { OurMenu } from '../our-menu/our-menu';
     </section>
     <app-how-to-order></app-how-to-order>
     <app-our-menu></app-our-menu>
+    <app-anfahrt></app-anfahrt>
+    
   `,
   styleUrls: ['./landingPage.component.scss']
 })
