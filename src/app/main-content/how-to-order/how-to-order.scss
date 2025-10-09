@@ -1,0 +1,77 @@
+.howtoorder {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .image-ctn {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 120px 0;
+
+
+
+        h3 {
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-size: 80px;
+            color: #9F0908;
+            margin: 0 0 64px 0;
+        }
+
+        .pics {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            padding: 0 160px;
+
+
+            .nudel {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+
+        }
+    }
+
+}
+
+ .howtoorder {}
+
+    h3 {
+        margin: 0 0 48px 0 !important;
+    }
+
+    .pics {
+        padding: 0 40px !important;
+    }
+
+    .nudel>span {
+        font-weight: bold;
+        font-family: "Economica", sans-serif;
+        font-size: 32px;
+    }
+
+    .image-ctn {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 96px 0 !important;
+    }
+
+
+    .pics .nudel {}
+
+    .nudel img {
+        width: 112px;
+        h1 {
+            text-align: center;
+        }
+    }
+
