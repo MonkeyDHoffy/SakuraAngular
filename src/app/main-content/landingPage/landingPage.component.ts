@@ -16,10 +16,6 @@ import { Anfahrt } from '../../shared/anfahrt/anfahrt';
       <h1 class="font-raleway">SAKURA RAMEN</h1>
       <h2 class="font-raleway">Best Ramen in Town</h2>
     </section>
-    <app-how-to-order></app-how-to-order>
-    <app-our-menu></app-our-menu>
-    <app-anfahrt></app-anfahrt>
-    
   `,
   styleUrls: ['./landingPage.component.scss']
 })
