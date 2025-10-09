@@ -1,0 +1,78 @@
+.ourmenu {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    height: 1552px;
+    background-image: url("/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 0 0;
+
+
+}
+
+.gericht1 {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 80px 0 160px;
+}
+
+.gericht1>table {
+    padding-top: 64px;
+}
+
+.gericht1>img {
+    height: 352px;
+    width: 352px;
+}
+
+.spacebetween56px {
+    height: 56px;
+}
+
+.spacebetween120px {
+    height: 120px;
+}
+
+table {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+th {
+    max-width: 1440px;
+
+    font-family: "Economica", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 56px;
+    color: black;
+    margin: 0 auto 16px auto;
+    width: 352px;
+    display: flex;
+    justify-content: left;
+}
+
+td {
+
+    color: #675E54;
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+h4 {
+    color: #9F0908;
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0px auto 64px auto;
+}
+
