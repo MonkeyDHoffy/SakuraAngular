@@ -11,10 +11,24 @@
 }
 
 .footerpics {
-    width: 200px;
+    width: 250px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+}
 
+.footerpics > a > h1 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.footerpics > a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 

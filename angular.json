@@ -37,6 +37,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/sakura17/",
               "budgets": [
                 {
                   "type": "initial",
